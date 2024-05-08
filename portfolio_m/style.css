@@ -1,0 +1,233 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/* Header */
+.header{
+    display: flex;
+    flex-direction: row;
+    width: 92.8%;
+    height: 75px;
+    background-color: #2a2438;
+    color:#fff;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.header ul{
+    display: inline-flex;
+    list-style: none;
+    width: 800px;
+}
+.logo{
+    width: 900px;
+    font-size: 40px;
+    align-self: center;
+}
+ul li{
+    width: 150px;
+    font-size: 24px;
+    cursor:pointer;
+}
+
+/* About section */
+
+.about-sec{
+    height: 350px;
+    background-color: #dbd8e3;
+    color: black;
+    padding-left: 50px;
+    padding-bottom: 50px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+.content1{
+    padding-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+.about-sec h1{
+    margin-bottom: 0px !important;
+    font-size: 44px;
+}
+.content1 p{
+    width: 240px;
+    height: 140px;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-top: 20px;
+    border: 2px #fff solid;
+    border-radius: 10px;
+    font-size: 15px;
+}
+.profile-img{
+    border-radius: 100px;
+    width: 175px;
+    height: 175px;
+}
+
+/* Skill section */
+.skill-sec{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width:94%;
+    height:300px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 50px;
+    padding-right: 30px;
+    background-color: #bab5f6; 
+
+}
+.heading1{
+    text-align: center;
+    align-self: center;
+    font-size: 50px;
+    border: 3px black dotted;
+    border-radius: 100px;
+    padding: 80px 30px;
+}
+.content2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 630px;
+    align-self: center;
+    border: 2px gray solid;
+    border-radius: 20px;
+}
+.content2 div{
+    width:300px;
+}
+.content2 ul{
+    list-style: none;
+}
+.content2 ul li{
+    font-size: 25px;
+    padding:8px 5px;
+}
+
+/* Project section */
+.project-sec{
+    height:575px;
+    width: 98.5%;
+    background-color: #113c4a;
+    padding-left: 20px;
+    color:#fff;
+}
+.project-details{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 50px;
+    padding-left: 65px;
+    padding-right: 65px;
+}
+.project-details div{
+    border: 2px white solid;
+    border-radius: 20px;
+    width:400px;
+}
+.heading2{
+    font-size: 45px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+.project-img{
+    width:200px;
+    height: 200px;
+    border-radius: 10px;
+}
+.project-details div{
+    text-align: center;
+    height: 400px;
+    padding: 20px;
+}
+/* Resume section */
+.resume-sec{
+    height:400px;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #d2ebcd;
+}
+.resume-sec h2{
+    font-size: 45px !important;
+}
+.details ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 30px;
+}
+.details ul li{
+    height: 150px;
+    width: 300px;
+    border: 2px black solid ;
+    border-radius: 10px;
+}
+.re-btn{
+    margin-top: 20px;
+    height: 75px;
+    width: 300px;
+    border-radius: 10px;
+    font-size: 20px;
+    background-color: #2a2438;
+}
+a{
+    color: #fff;
+}
+
+/* Contact section */
+.contact-sec{
+    height: 240px;
+    background-color: #84bed1;
+    width: 100%;
+    padding-top: 10px;
+    text-align: center;
+}
+.contact-sec h1{
+    margin: 0;
+    font-size: 45px;
+    text-align: center;
+    padding-bottom: 10px;
+}
+.contact-details ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 50px;
+    cursor:pointer;
+}
+.contact-details li{
+    font-size: 20px;
+    background-color: #113c4a;
+    color: #fff;
+    width: 250px;
+    height: 80px;
+    border-radius: 10px;
+    padding-top: 20px;
+    cursor:pointer;
+}
+
+/* Footer */
+.footer{
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    margin: 0;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
